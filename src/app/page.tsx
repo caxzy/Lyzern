@@ -14,7 +14,7 @@ export default function MaintenancePage() {
           </div>
 
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-5 tracking-tighter leading-tight">
-            UNDER MAINTENANCE
+            UNDER MAINTENANCE.
           </h1>
           
           <p className="text-sm md:text-base mb-14 leading-relaxed max-w-md text-slate-500 font-sans">
