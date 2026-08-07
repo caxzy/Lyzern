@@ -14,7 +14,7 @@ export default function MaintenancePage() {
           </div>
 
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-5 tracking-tighter leading-tight">
-            UNDER MAINTENANCE.
+            UNDER MAINTENACE.
           </h1>
           
           <p className="text-sm md:text-base mb-14 leading-relaxed max-w-md text-slate-500 font-sans">
@@ -33,7 +33,7 @@ export default function MaintenancePage() {
             </a>
             <div className="flex items-center gap-2 px-4 py-2 text-xs text-slate-700">
               <Terminal size={14} />
-              <span>DEVBUILD:0.065</span>
+              <span>DEVBUILD:0.70</span>
             </div>
           </div>
         </div>
