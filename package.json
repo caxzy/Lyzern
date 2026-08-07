@@ -1,6 +1,6 @@
 {
-  "name": "megathread",
-  "version": "DEV-0.065",
+  "name": "vexyra-megathread",
+  "version": "DEV-0.067",
   "private": true,
   "scripts": {
     "dev": "next dev",
