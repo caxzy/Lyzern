@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 
 export const metadata: Metadata = {
   title: 'VexyraHub - Your Hub for optimization.',
-  description: 'VexyraHub - No limits to your goals—optimize your Windows using proven and verified optimization tools for higher FPS.',
+  description: 'VexyraHub - A hub of PC optimization tools, programs, and guides for Windows 10/11. All in one place and 100% open source.',
 };
 
 export default function RootLayout({
