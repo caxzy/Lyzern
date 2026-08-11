@@ -2,6 +2,7 @@ import nextra from 'nextra'
  
 // Set up Nextra with its configuration
 const withNextra = nextra({
+    output: "export",
 
 })
  
