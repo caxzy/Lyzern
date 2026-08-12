@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next --turbopack",
+    "postinstall": "patch-package",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
