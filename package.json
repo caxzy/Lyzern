@@ -1,6 +1,6 @@
 {
   "name": "vexyra-devbuild",
-  "version": "DEV-1.10",
+  "version": "DEV-1.30",
   "private": true,
   "scripts": {
     "dev": "next --turbopack",
