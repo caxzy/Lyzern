@@ -9,6 +9,5 @@ Open-Source Hub, Guide for Windows Optimization.
 </div>
 
 ## 🛠️Tech Stack
-- **Framework:** [Nextjs](https://nextjs.org/)
+- **Framework:** [Nextjs](https://nextjs.org/) and [Nextra.site](https://nextra.site/)
 - **Styles:** [Tailwindcss](https://tailwindcss.com/)
-- **Icons:** [Luicide - React](https://lucide.dev)
