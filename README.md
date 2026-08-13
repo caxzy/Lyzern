@@ -36,6 +36,6 @@ VexyraGuide/
 
 <div align="center">
 
-Made with ❤️ by: [caxzy](https://github.com/caxzy)
+Made with ❤️.
 
 </div>
