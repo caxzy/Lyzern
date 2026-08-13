@@ -1,5 +1,5 @@
 <div align="center">
-   <h1>Vexyra</h1>
+   <h1><img src="https://github.com/caxzy/VexyraGuide/blob/main/assets/logo.png?raw=true" width="32">Vexyra</h1>
   <p>
 
 [![Stars](https://img.shields.io/github/stars/caxzy/VexyraGuide?style=flat&color=blueviolet)](https://github.com/caxzy/VexyraGuide/stargazers)
