@@ -4,20 +4,20 @@ import { getPageMap } from 'nextra/page-map'
 import 'nextra-theme-docs/style.css'
  
 export const metadata = {
-  title: 'VexyraHub - Your Guide for optimization.',
+  title: 'VexyraGuide - Your Guide for optimization.',
   description: 'A guide for PC optimization tools, programs, and guides for Windows 10/11. All in one place and 100% open source.',
 }
  
 const banner = <Banner storageKey="some-key">❗Developer Beta.</Banner>
 const navbar = (
   <Navbar
-    logo={<b>VexyraHub</b>}
-    projectLink='https://github.com/caxzy/VexyraHub'
+    logo={<b>VexyraGuide</b>}
+    projectLink='https://github.com/caxzy/VexyraGuide'
     chatLink='https://discord.com/invite/JVEWR9CGk5'
   />
 )
 const footer = (
-<Footer>MIT {new Date().getFullYear()} © VexyraHub - Made With ❤️.</Footer>
+<Footer>MIT {new Date().getFullYear()} © VexyraGuide - Made With ❤️.</Footer>
 );
 
 const search = <Search placeholder="Search docs.."></Search>;
@@ -45,7 +45,7 @@ export default async function RootLayout({ children }) {
           banner={banner}
           navbar={navbar}
           pageMap={await getPageMap()}
-          docsRepositoryBase="https://github.com/caxzy/VexyraHub"
+          docsRepositoryBase="https://github.com/caxzy/VexyraGuide"
           footer={footer}
           feedback={{ content: null }}
           search={search}
