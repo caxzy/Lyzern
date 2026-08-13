@@ -16,9 +16,14 @@
 > Vexyra is a new and emerging project, we are working on writing guides and trusting us.
 
 ## 🛠️Tech Stack
-- **Framework:** [Nextjs](https://nextjs.org/) and [Nextra.site](https://nextra.site/)
-- **Styles:** [Tailwindcss](https://tailwindcss.com/)
-- **Hosting:** Github Pages
+
+| Layer | Technology |
+|---|---|
+| Framework | [Next.js](https://nextjs.org/) |
+| Docs | [Nextra](https://nextra.site/) |
+| Styles | [Tailwind CSS](https://tailwindcss.com/) |
+| Search engine | [Pagefind](https://pagefind.app/) |
+| Hosting | GitHub Pages |
 
 ## 📂 Project structure
 
