@@ -4,8 +4,8 @@ import { getPageMap } from 'nextra/page-map'
 import 'nextra-theme-docs/style.css'
  
 export const metadata = {
-  title: 'VexyraHub - Your Hub for optimization.',
-  description: 'A hub of PC optimization tools, programs, and guides for Windows 10/11. All in one place and 100% open source.',
+  title: 'VexyraHub - Your Guide for optimization.',
+  description: 'A guide for PC optimization tools, programs, and guides for Windows 10/11. All in one place and 100% open source.',
 }
  
 const banner = <Banner storageKey="some-key">❗Developer Beta.</Banner>
@@ -30,6 +30,7 @@ export default async function RootLayout({ children }) {
       suppressHydrationWarning
     >
 <Head
+// Favourite Color.
   color={{
     hue: 300,
     saturation: 100,
