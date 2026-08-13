@@ -8,5 +8,9 @@ export default {
     type: "separator",
   },
   ///
-    win_optimization: "docs2 Test.",
+    windows_optimization: "Getting Started with Windows Optimization. ",
+      "###": {
+    type: "separator",
+  },
+  //
 }

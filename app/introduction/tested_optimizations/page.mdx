@@ -1,0 +1,51 @@
+---
+title: Vexyra - Introduction
+---
+
+import { Callout, Cards } from 'nextra/components'
+
+
+## How are optimizations, debloaters and etc. tested?
+
+When testing all optimizations, optimization panels, scripts, debloaters, etc. I used theese two methods:
+
+<Callout type="info">Virtual Machine - [VMware Workstation Pro](https://www.vmware.com/) (Windows 10,11):</Callout>
+
+> The latest Windows updates and VMware drivers were installed - The test was needed to pass the following tasks:
+
+- Background processes.
+- System responsiveness.
+- Windows Event Viewer.
+- And if necessary hidden malware.
+
+<Callout type="info">Main system after reinstalling a new system (Windows 10, 11):</Callout>
+
+> A completely new system, all drivers cleanly installed. Windows updates as well. The main system was needed when the optimizations from the Virtual Machine test were successful and everything was fine with the system.
+
+- CPU Stress Test - [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html), [Cinebench 2026](https://www.maxon.net/en/cinebench).
+- GPU Stress Test - [3DMark](https://www.3dmark.com/), [FurMark](https://geeks3d.com/furmark/).
+- System Responsiveness.
+- Gaming Performance - [CapFrameX](https://www.capframex.com/), [RTSS (From MSI Afterburner)](https://www.msi.com/Landing/afterburner).
+- Bench score - [Cinebench 2026](https://www.maxon.net/en/cinebench).
+- CPU Temperature - [HWiNFO](https://www.hwinfo.com/), [RTSS (From MSI Afterburner)](https://www.msi.com/Landing/afterburner).
+- GPU Temperature - [HWiNFO](https://www.hwinfo.com/), [RTSS (From MSI Afterburner)](https://www.msi.com/Landing/afterburner).
+- System Stability Test: [Prime95](https://prime95.net/).
+- RAM Benchmark (After BIOS Tweaks) [MemTest86](https://www.memtest86.com/).
+
+### And repairing the system before and after using optimizations:
+
+```cmd filename="DISM (Deployment Image Servicing and Management): "
+* DISM /Online /Cleanup-Image /ScanHealth
+* DISM /Online /Cleanup-Image /CheckHealth
+* DISM /Online /Cleanup-Image /RestoreHealth
+```
+
+```cmd filename="sfc (System File Checker): "
+* sfc /scannow
+```
+
+> And also Disk Repair:
+
+```cmd filename="chkdsk (Check Disk): "
+* chkdsk C: /f /r
+```

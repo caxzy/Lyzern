@@ -8,7 +8,7 @@ export const metadata = {
   description: 'A guide for PC optimization tools, programs, and guides for Windows 10/11. All in one place and 100% open source.',
 }
  
-const banner = <Banner storageKey="some-key">❗Developer Beta.</Banner>
+const banner = <Banner storageKey="some-key"> Vexyra is now public! 🎉</Banner>
 const navbar = (
   <Navbar
     logo={<b>VexyraGuide</b>}
