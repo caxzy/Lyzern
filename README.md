@@ -9,4 +9,4 @@
 - **Styles:** [Tailwindcss](https://tailwindcss.com/)
 
 > [!IMPORTANT]
-> Vexyra is a new and emerging project, we are working on writing guides and trusting us.
+> Vexyra is a new and developing project, we are working on writing guides and trust.
