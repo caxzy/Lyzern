@@ -1,6 +1,3 @@
-> [!IMPORTANT]
-> During development, many features are missing.
-
 <div align="center">
    <h1>Vexyra</h1>
   <p>
@@ -13,3 +10,6 @@ Open-Source Guide for Windows Optimization.
 ## 🛠️Tech Stack
 - **Framework:** [Nextjs](https://nextjs.org/) and [Nextra.site](https://nextra.site/)
 - **Styles:** [Tailwindcss](https://tailwindcss.com/)
+
+> [!IMPORTANT]
+> Vexyra is a new and emerging project, we are working on writing guides and trusting us.
