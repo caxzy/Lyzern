@@ -1,6 +1,6 @@
 {
   "name": "vexyra-guide",
-  "version": "PUBLIC-V1.2",
+  "version": "PUBLIC-V1.3",
   "private": true,
   "scripts": {
     "dev": "next --turbopack",
