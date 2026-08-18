@@ -50,6 +50,10 @@ export default async function RootLayout({ children }) {
           feedback={{ content: null }}
           search={search}
           editLink={null}
+          sidebar={{
+          defaultMenuCollapseLevel: 1,
+          autoCollapse: true,
+          }}
         >
           {children}
         </Layout>
