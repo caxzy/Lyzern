@@ -31,7 +31,7 @@
 VexyraGuide/
 ├── app/
 │   ├── introduction/       # Introductory page
-│   ├── win_optimization/   # Windows optimization guides
+│   ├── tools_optimizers/   # Tools for windows optimizations
 │   ├── favicon.ico         # Vexyra favicon
 │   ├── layout.jsx          # Main layout + theme configuration
 │   └── globals.css
