@@ -32,9 +32,12 @@ VexyraGuide/
 ├── app/
 │   ├── introduction/       # Introductory page
 │   ├── win_optimization/   # Windows optimization guides
-│   ├── favicon.ico         # Vexyra logo (soon)
+│   ├── favicon.ico         # Vexyra favicon
 │   ├── layout.jsx          # Main layout + theme configuration
 │   └── globals.css
+├── assets/
+│   ├── logo.png       # Vexyra logo
+│   ├── vexyra_favicon.ico       # Backup Vexyra favicon
 ├── next.config.mjs         # Next.js + Nextra configuration
 └── package.json
 ```
